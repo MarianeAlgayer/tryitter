@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/tryitter.csproj": {}
+    "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/src/Tryitter.Test/Tryitter.Test.csproj": {}
   },
   "projects": {
-    "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/tryitter.csproj": {
+    "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/src/Tryitter.Test/Tryitter.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/tryitter.csproj",
-        "projectName": "tryitter",
-        "projectPath": "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/tryitter.csproj",
+        "projectUniqueName": "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/src/Tryitter.Test/Tryitter.Test.csproj",
+        "projectName": "Tryitter.Test",
+        "projectPath": "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/src/Tryitter.Test/Tryitter.Test.csproj",
         "packagesPath": "/Users/marianealgayer/.nuget/packages/",
-        "outputPath": "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/obj/",
+        "outputPath": "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/src/Tryitter.Test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/marianealgayer/.nuget/NuGet/NuGet.Config"
@@ -38,13 +38,25 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[17.3.2, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
             }
           },
           "imports": [
@@ -59,9 +71,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

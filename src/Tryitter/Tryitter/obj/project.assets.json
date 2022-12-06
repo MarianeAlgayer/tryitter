@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/tryitter.csproj",
-      "projectName": "tryitter",
-      "projectPath": "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/tryitter.csproj",
+      "projectUniqueName": "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/src/Tryitter/Tryitter/Tryitter.csproj",
+      "projectName": "Tryitter",
+      "projectPath": "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/src/Tryitter/Tryitter/Tryitter.csproj",
       "packagesPath": "/Users/marianealgayer/.nuget/packages/",
-      "outputPath": "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/obj/",
+      "outputPath": "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/src/Tryitter/Tryitter/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/marianealgayer/.nuget/NuGet/NuGet.Config"
