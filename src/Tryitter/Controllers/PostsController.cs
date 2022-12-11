@@ -2,6 +2,7 @@
 using Tryitter.Context;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Tryitter.Controllers
 {
@@ -16,6 +17,7 @@ namespace Tryitter.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public ActionResult<IEnumerable<Post>> GetPosts()
         {
             try
@@ -56,6 +58,7 @@ namespace Tryitter.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public ActionResult PostPost(Post post)
         {
             if (post is null) return BadRequest("Dados inválidos.");
@@ -67,6 +70,7 @@ namespace Tryitter.Controllers
         }
 
         [HttpPut("{id:int}")]
+        [Authorize]
         public ActionResult PutPost(int id, Post post)
         {
             if (id != post.PostId) return BadRequest("Id não encontrado.");
@@ -78,6 +82,7 @@ namespace Tryitter.Controllers
         }
 
         [HttpDelete("{id:int}")]
+        [Authorize]
         public ActionResult DeletePost(int id)
         {
             var post = _context.Posts.FirstOrDefault(p => p.PostId == id);

@@ -1,6 +1,6 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace Tryitter.Models
 {
@@ -20,6 +20,8 @@ namespace Tryitter.Models
 		public DateTime PostDate { get; set; }
 
 		public int StudentAccountId { get; set; }
+
+		[JsonIgnore]
 		public StudentAccount? StudentAccount { get; set; }
 	}
 }
