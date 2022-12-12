@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ComPskTJ2XKPA2ujscE3mc2AJ03NtAtTQ1jareDb4wRqz7ew2qoZ074kKjg9Y0EWRNwbi0IJJ73HDvB3GjrxaQ==",
+  "dgSpecHash": "4a/A6o3qZTDAOPgLdmSaeXvuq0S0Y3bUGtB1O+K60IYLL7Q8pWMFPpcCKysPHyGtOy682tne355S+NV/6gtltw==",
   "success": true,
   "projectFilePath": "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/src/Tryitter.Test/Tryitter.Test.csproj",
   "expectedPackageFiles": [
     "/Users/marianealgayer/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
+    "/Users/marianealgayer/.nuget/packages/fluentassertions/5.7.0/fluentassertions.5.7.0.nupkg.sha512",
     "/Users/marianealgayer/.nuget/packages/humanizer.core/2.2.0/humanizer.core.2.2.0.nupkg.sha512",
     "/Users/marianealgayer/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",
     "/Users/marianealgayer/.nuget/packages/messagepack.annotations/2.1.152/messagepack.annotations.2.1.152.nupkg.sha512",
