@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tryitter", "Tryitter.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{F817A34E-BA92-44C2-8894-88E2C3BA679F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tryitter.Test", "..\Tryitter.Test\Tryitter.Test.csproj", "{50B6056D-4175-42C2-B3D8-769E296EDCD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{63281A13-80D7-489F-B647-95D922419686}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63281A13-80D7-489F-B647-95D922419686}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63281A13-80D7-489F-B647-95D922419686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B6056D-4175-42C2-B3D8-769E296EDCD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B6056D-4175-42C2-B3D8-769E296EDCD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B6056D-4175-42C2-B3D8-769E296EDCD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B6056D-4175-42C2-B3D8-769E296EDCD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
