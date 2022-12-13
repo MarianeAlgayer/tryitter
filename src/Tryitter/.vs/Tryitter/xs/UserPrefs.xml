@@ -1,21 +1,32 @@
 ﻿<Properties StartupConfiguration="{63281A13-80D7-489F-B647-95D922419686}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Tryitter PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Tryitter.Test/StudentsControllerTest.cs">
+    <Files>
+      <File FileName="../Tryitter.Test/StudentsControllerTest.cs" Line="29" Column="1" />
+      <File FileName="Controllers/StudentsController.cs" />
+      <File FileName="../../../../Downloads/APICatalogo 3/ApiCatalogoxUnitTests/CategoriasUnitTestController.cs" />
+      <File FileName="../Tryitter.Test/DBUnitTestsMockInitializer.cs" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Option id="ShowAllFiles" value="True" />
           <Node name="Tryitter" expanded="True">
-            <Node name="Models" selected="True" />
+            <Node name="Tryitter" expanded="True" />
+            <Node name="Tryitter.Test" expanded="True" />
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Tryitter" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Tryitter PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
