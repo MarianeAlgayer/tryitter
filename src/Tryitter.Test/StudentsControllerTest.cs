@@ -45,7 +45,7 @@ public class StudentsControllerTest
     {
         //Arrange
         var controller = new StudentsController(_context);
-        var studentId = 1;
+        var studentId = 2;
 
         //Act
         var data = controller.GetStudent(studentId);
@@ -87,7 +87,7 @@ public class StudentsControllerTest
     {
         //Arrange
         var controller = new StudentsController(_context);
-        var studentId = 1;
+        var studentId = 3;
 
         //Act
         var data = controller.DeleteStudent(studentId);

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4a/A6o3qZTDAOPgLdmSaeXvuq0S0Y3bUGtB1O+K60IYLL7Q8pWMFPpcCKysPHyGtOy682tne355S+NV/6gtltw==",
+  "dgSpecHash": "+agiWnEgYH4nzPNCBYiSzQ75KOPqwI4+qnCWIX9WL7HoEqydpYZE3mj61fYZHV8V+tlU8gRGImJVfVQuzPABHA==",
   "success": true,
   "projectFilePath": "/Users/marianealgayer/trybe-aceleracao-csharp/tryitter/src/Tryitter.Test/Tryitter.Test.csproj",
   "expectedPackageFiles": [
@@ -43,7 +43,7 @@
     "/Users/marianealgayer/.nuget/packages/microsoft.codeanalysis.visualbasic.workspaces/4.0.0/microsoft.codeanalysis.visualbasic.workspaces.4.0.0.nupkg.sha512",
     "/Users/marianealgayer/.nuget/packages/microsoft.codeanalysis.workspaces.common/4.0.0/microsoft.codeanalysis.workspaces.common.4.0.0.nupkg.sha512",
     "/Users/marianealgayer/.nuget/packages/microsoft.codeanalysis.workspaces.msbuild/4.0.0/microsoft.codeanalysis.workspaces.msbuild.4.0.0.nupkg.sha512",
-    "/Users/marianealgayer/.nuget/packages/microsoft.codecoverage/17.1.0/microsoft.codecoverage.17.1.0.nupkg.sha512",
+    "/Users/marianealgayer/.nuget/packages/microsoft.codecoverage/17.4.0/microsoft.codecoverage.17.4.0.nupkg.sha512",
     "/Users/marianealgayer/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/marianealgayer/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/marianealgayer/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
