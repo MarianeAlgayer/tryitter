@@ -31,7 +31,7 @@ https://localhost:7140/swagger/index.html
 
 ## Deploy
 
-A aplicação está disponivel através desse [link](https://tryitter-blm-group.azurewebsites.net/)
+A aplicação está disponivel através desse [link](https://tryitter-blm-group.azurewebsites.net/swagger)
 
 ---
 
